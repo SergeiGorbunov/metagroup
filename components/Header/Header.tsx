@@ -24,7 +24,7 @@ export default function Header() {
         </ul>
 
         {/* Шапка для мобильных устройств */}
-        <ul className="sm:hidden flex justify-center gap-3 p-5 text-lg fixed bottom-0 w-full border-t border-amber-700 text-center bg-black">
+        <ul className="sm:hidden flex justify-center gap-3 p-5 text-lg fixed bottom-0 w-full border-t border-amber-700 text-center bg-black opacity-90 rounded-t-2xl">
           {menuItems.map((item) => (
             <li key={item.href}>
               <Link
