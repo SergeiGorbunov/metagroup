@@ -1,11 +1,12 @@
 import Image from "next/image";
+import samosval from "@/images/samosval.jpg";
 const Main = () => {
   return (
-    <div>
+    <>
       <section className="grid grid-cols-1 md:grid-cols-2 w-full gap-4 ">
         <Image
           className="rounded-3xl shadow-lg shadow-amber-500"
-          src="/images/samosval.jpg"
+          src={samosval}
           alt="logo"
           width={1920}
           height={1080}
@@ -46,7 +47,7 @@ const Main = () => {
           </form>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 export default Main;

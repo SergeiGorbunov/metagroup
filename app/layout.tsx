@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header/Header";
 
 const inter = Ubuntu({ weight: "400", subsets: ["cyrillic"] });
+//favicon
 
 export const metadata: Metadata = {
   title: "Группа компаний МЕТА",
@@ -11,19 +12,12 @@ export const metadata: Metadata = {
   keywords: "щебень, керамзит, щпс, бетон, строительные материалы",
   authors: [{ name: "Группа компаний МЕТА" }],
   creator: "Группа компаний МЕТА",
-
+  publisher: "Группа компаний МЕТА",
   openGraph: {
     title: "Группа компаний МЕТА",
     description: "Предоставляем высококачественные строительные материалы",
     url: "https://stroi-meta.ru",
     siteName: "Группа компаний МЕТА",
-    images: [
-      {
-        url: "https://stroi-meta.ru/api/og",
-        width: 1920,
-        height: 1080,
-      },
-    ],
     locale: "ru",
     type: "website",
   },

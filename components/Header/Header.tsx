@@ -24,11 +24,11 @@ export default function Header() {
         </ul>
 
         {/* Шапка для мобильных устройств */}
-        <ul className="sm:hidden flex justify-center gap-5 p-5 text-lg fixed bottom-0 w-full border-t border-amber-700 text-center bg-black">
+        <ul className="sm:hidden flex justify-center gap-3 p-5 text-lg fixed bottom-0 w-full border-t border-amber-700 text-center bg-black">
           {menuItems.map((item) => (
             <li key={item.href}>
               <Link
-                className="hover:text-amber-600 transition-all"
+                className="hover:text-amber-600 transition-all text-nowrap"
                 href={item.href}
               >
                 <p>{item.icon}</p>
